@@ -1,17 +1,56 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="warning">
     <ion-title>
-      Tab 2
+      Séries
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="medium">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card color="dark">
+    <ion-card-header>
+      <img src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/dbmKYY48PohU6DAx75Iq1hxUVm2.jpg">
+    </ion-card-header>
+
+    <ion-item color="dark">
+      <h1>Rick and Morty <span>(2013)</span></h1>
+    </ion-item>
+    <ion-item color="medium">
+      <div class="info ion-text-center">
+        <span class="tipo">TV-MA</span><span class="duracao">22m</span>
+        <p>Animação, Comédia, Ficção Científica e Fantasia, Ação e Aventura
+        </p>
+      </div>
+    </ion-item>
+    <ion-item color="dark">
+      <div>
+        <h2>Sinopse</h2>
+        <p>Rick é um velho mentalmente desequilibrado, mas cientificamente talentoso, que recentemente se reconectou com sua família. Ele passa a maior parte do tempo envolvendo seu jovem neto Morty em perigosas aventuras estranhas ao longo do espaço e universos alternativos.</p>
+      </div>
+    </ion-item>
+  </ion-card>
+
+  <ion-card color="dark">
+    <ion-card-header>
+      <img src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/xcZfdO0x7sMLDUFV0qJOHxMJj45.jpg">
+    </ion-card-header>
+
+    <ion-item color="dark">
+      <h1>Elite <span>(2018)</span></h1>
+    </ion-item>
+    <ion-item color="medium">
+      <div class="info ion-text-center">
+        <span class="tipo">TV-MA</span><span class="duracao">30+</span>
+        <p>Crime, Mistério, Drama</p>
+      </div>
+    </ion-item>
+    <ion-item color="dark">
+      <div>
+        <h2>Sinopse</h2>
+        <p>Quando três crianças da classe trabalhadora se matriculam na escola mais exclusiva da Espanha, o confronto entre os ricos e os pobres estudantes leva à tragédia.</p>
+      </div>
+    </ion-item>
+  </ion-card>
+
 </ion-content>
