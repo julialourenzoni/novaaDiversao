@@ -1,9 +1,114 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>rickAndMorty</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="dark">
+ 
+  <ion-card color="warning">
+    <ion-card-header>
+      <img src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/erpChhl0uknAvYsEC3zq7abbXeb.jpg">
+    </ion-card-header>
+    <ion-item color="dark">
+      <h1>Rick and Morty<span> (2013)</span></h1>
+    </ion-item>
+    <ion-item color="warning">
+      <div class="info ion-text-center">
+        <span class="tipo" color="light" >16</span>
+       
+        <p>Animação, Comédia, Sci-Fi & Fantasy, 
+          Action & Adventure - 22m
+        </p>
+        <ion-button color="danger" size="small">ASSISTIR</ion-button>
+        <ion-button fill="outline" color="dark" size="small">EPISÓDIOS</ion-button>
+       
+          <ion-item color="waernig">
+            <ion-range min="50" max="50" step="2">
+              <ion-icon slot="start" name="sad-outline"></ion-icon>
+              <ion-icon slot="end" name="happy-outline"></ion-icon>
+            </ion-range>
+          </ion-item>
+      
+      </div>
+    </ion-item>
+    <ion-item color="dark">
+      <div>
+        <h2>Sinopse</h2>
+        <p>Rick é um velho mentalmente desequilibrado, 
+          mas cientificamente talentoso que se reconectou 
+          recentemente com sua família. 
+          Ele passa a maior parte do tempo envolvendo o jovem neto 
+          Morty em aventuras perigosas e estranhas no espaço e em 
+          universos alternativos. Compostos à vida familiar já instável 
+          de Morty, 
+          esses eventos causam muito sofrimento a Morty em casa e na escola.</p>
+      </div>
+    </ion-item>
+
+    <ion-grid color="warning">
+      <h1>Atores</h1>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/wYApP38aXe6ZcEtlBAfNRxJTQQi.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Justin Roiland</h5> 
+            <p>Rick Sanchez</p>
+            <p>Morty Smith</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/aGzA5l9S89qLkhpSdjmkerFdZt0.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Chris Parnell</h5> 
+            <p>Jerry Smith</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://ionicframework.com/docs/demos/api/thumbnail/thumbnail.svg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Spencer Grammer</h5> 
+            <p>Summer Smith</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/ycwiu89cpjqCtSNC5FjbJggjj5R.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Sarah Chalke</h5> 
+            <p>Beth Smith</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/4hPvsVP7uDBHDgj7JikIY3Wop18.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Brandon Johnson</h5> 
+            <p>Mr. Goldenfold</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+    <a routerLink="/rick-and-morty" fill="outline" color="dark" size="small">Mostrar Mais</a>
+    </ion-list>
+    </ion-grid>
+
+  </ion-card>
 
 </ion-content>

@@ -1,9 +1,103 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>totallySpies</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="dark">
+ 
+  <ion-card color="warning">
+    <ion-card-header>
+      <img src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/s3acJGBPPEQQK1WwxiGq0SQ8txW.jpg">
+    </ion-card-header>
+    <ion-item color="dark">
+      <h1>Três Espiãs Demais! <span> (2001)</span></h1>
+    </ion-item>
+    <ion-item color="warning">
+      <div class="info ion-text-center">
+        <span class="tipo" color="light" >Livre</span>
+       
+        <p>Animação, Comédia, Drama, Kids, Action & Adventure - 22m
+        </p>
+        <ion-button color="danger" size="small">ASSISTIR</ion-button>
+        <ion-button fill="outline" color="dark" size="small">EPISÓDIOS</ion-button>
+       
+          <ion-item color="waernig">
+            <ion-range min="50" max="50" step="2">
+              <ion-icon slot="start" name="sad-outline"></ion-icon>
+              <ion-icon slot="end" name="happy-outline"></ion-icon>
+            </ion-range>
+          </ion-item>
+      
+      </div>
+    </ion-item>
+    <ion-item color="dark">
+      <div>
+        <h2>Sinopse</h2>
+        <p>A série conta a história de três típicas adolescentes 
+          em Beverly Hills : Sam, Clover e Alex. O que poucos sabem 
+          é que elas são espiãs comandadas por Jerry, líder de uma 
+          organização secreta chamada Organização Mundial de 
+          Proteção Humana. Assim, as garotas têm que dividir 
+          suas missões juntamente com as preocupações típicas do 
+          seu dia-a-dia: provas de escola, garotos, compras e, 
+          sua rival, Mandy, uma patricinha fresca e mimada.
+        </p>
+      </div>
+    </ion-item>
+
+    <ion-grid color="warning">
+      <h1>Atores</h1>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/oNQCrdiSm0mABCcE5YaHwuZQK8X.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Jennifer Hale</h5> 
+            <p>Samantha "Sam" </p>
+            <p>Mandy</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/vHbYsbTV1NZPQWkEQbgxaccotkW.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Andrea Baker</h5> 
+            <p>Clover</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/jApn1mOWTxQG6a8a3IJmgjRaxqH.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Katie Leigh</h5> 
+            <p>Alexandra "Alex"</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/zQ2zg7PL3ut4JhfXMKSRV4FMnxR.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Jess Harnell</h5> 
+            <p>Jerry</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+    <a routerLink="/totally-spies" fill="outline" color="dark" size="small">Mostrar Mais</a>
+    </ion-list>
+    </ion-grid>
+
+  </ion-card>
 
 </ion-content>

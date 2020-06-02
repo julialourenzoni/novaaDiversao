@@ -1,15 +1,106 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>adAstra</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div>
-    <img src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/cs6z1byqL0ffw1948FJI2Jr1HVT.jpg">
-      <h2>Ad Astra</h2>
-      <p>2019 &nbsp;&nbsp; 14 &nbsp;&nbsp; 7 Temporadas</p>
-      <p>Science Fiction, Drama</p>
-      <ion-button color="danger" size="small">ASSISTIR</ion-button>
-  </div>
+<ion-content color="dark">
+ 
+  <ion-card color="warning">
+    <ion-card-header>
+      <img src="https://image.tmdb.org/t/p/w500_and_h282_face/daopuCgMszXMpibP9Ycb5X0Ee8z.jpg">
+    </ion-card-header>
+    <ion-item color="dark">
+      <h1>Ad Astra <span>(2019)</span></h1>
+    </ion-item>
+    <ion-item color="warning">
+      <div class="info ion-text-center">
+        <span class="tipo" color="light" >14</span>
+        <p>Ficção científica, Drama - 2h 3m
+        </p>
+        <ion-button color="danger" size="small">ASSISTIR</ion-button>
+        <ion-button fill="outline" color="dark" size="small">TRAILER</ion-button>
+       
+          <ion-item color="waernig">
+            <ion-range min="50" max="50" step="2">
+              <ion-icon slot="start" name="sad-outline"></ion-icon>
+              <ion-icon slot="end" name="happy-outline"></ion-icon>
+            </ion-range>
+          </ion-item>
+      
+      </div>
+    </ion-item>
+    <ion-item color="dark">
+      <div>
+        <h2>Sinopse</h2>
+        <p>Roy McBride é um engenheiro espacial, portador de um leve grau de autismo, 
+          que decide empreender a maior jornada de sua vida: viajar para o espaço, 
+          cruzar a galáxia e tentar descobrir o que aconteceu com seu pai, 
+          um astronauta que se perdeu há vinte anos atrás no caminho para Netuno.</p>
+      </div>
+    </ion-item>
+
+    <ion-grid color="warning">
+      <h1>Atores</h1>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/kU3B75TyRiCgE270EyZnHjfivoq.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Brad Pitt</h5> 
+            <p>Roy McBride</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/rdKKuq8zWCDYlKSxIfwGo2RUjpN.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Tommy Lee Jones</h5> 
+            <p>H. Clifford McBride</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/aL4nmTVtQU2uQDNdBCarTy413CZ.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Ruth Negga</h5> 
+            <p>Helen Lantos</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/o2SOFI53N6Gv5S3fDEBNbeimbzY.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>John Ortiz</h5> 
+            <p>Lieutenant General Rivas</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/jrOj6t9pH8TqO65pnsRuvRNhwqx.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Liv Tyler</h5> 
+            <p>Eve</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <a routerLink="/ad-astra" fill="outline" color="dark" size="small">Mostrar Mais</a>
+        </ion-list>
+    </ion-grid>
+  </ion-card>
+
 </ion-content>

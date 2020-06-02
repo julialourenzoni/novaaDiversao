@@ -1,9 +1,109 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>gravityFalls</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="dark">
+ 
+  <ion-card color="warning">
+    <ion-card-header>
+      <img src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/s5idk3Vuu4FJvx2piMyxVZ0cF8L.jpg">
+    </ion-card-header>
+    <ion-item color="dark">
+      <h1>Gravity Falls<span> (2012)</span></h1>
+    </ion-item>
+    <ion-item color="warning">
+      <div class="info ion-text-center">
+        <span class="tipo" color="light" >Livre</span>
+       
+        <p>Animação, Comédia, Mistério, Sci-Fi & Fantasy, Kids - 22m
+        </p>
+        <ion-button color="danger" size="small">ASSISTIR</ion-button>
+        <ion-button fill="outline" color="dark" size="small">EPISÓDIOS</ion-button>
+       
+          <ion-item color="waernig">
+            <ion-range min="50" max="50" step="2">
+              <ion-icon slot="start" name="sad-outline"></ion-icon>
+              <ion-icon slot="end" name="happy-outline"></ion-icon>
+            </ion-range>
+          </ion-item>
+      
+      </div>
+    </ion-item>
+    <ion-item color="dark">
+      <div>
+        <h2>Sinopse</h2>
+        <p>Os gêmeos Dipper e Mabel ficam desapontados ao ter 
+          que passar o verão com seu tio-avô, 
+          mas a cidade onde ele vive acaba se revelando um 
+          lugar estranho e maravilhoso.</p>
+      </div>
+    </ion-item>
+
+    <ion-grid color="warning">
+      <h1>Atores</h1>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/6BPbJD6nUHP4HNHXstWzZTSod6z.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Jason Ritter</h5> 
+            <p>Dipper Pines</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/k0rbME82XJkVgEbUIBZmYk9Tjxz.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Kristen Schaal</h5> 
+            <p>Mabel Pines</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/bcycvynDprC1rrhBNrnBjn5uOUd.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>Linda Cardellini</h5> 
+            <p>Wendy </p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w66_and_h66_face/rRrVvBxOkyYM5XdLXimShHR1Itn.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>T. J. Miller</h5> 
+            <p>Robbie</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item lines="full">
+          <ion-thumbnail slot="start">
+            <img src="https://image.tmdb.org/t/p/w66_and_h66_face/jPoNW5fugs5h8AbcE7H5OBm04Tm.jpg">
+          </ion-thumbnail>
+          <ion-label>
+            <h5>J.K. Simmons</h5> 
+            <p>Stanford Pines</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+    <a routerLink="/gravity-falls" fill="outline" color="dark" size="small">Mostrar Mais</a>
+    </ion-list>
+    </ion-grid>
+
+  </ion-card>
 
 </ion-content>
+
