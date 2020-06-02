@@ -1,17 +1,71 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="warning">
     <ion-title>
-      Tab 3
+      Desenhos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-list routerLink="/gravity-falls">
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+        <img src="assets/gravityfalls.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        Gravity Falls
+      </ion-label>
+
+      <div slot="end" class="c100 p84 small green">
+        <span>84%</span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+
+    </ion-item>
+  </ion-list>
+
+  <ion-list routerLink="/totally-spies">
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+        <img src="assets/espiasdemais.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        Totally Spies!
+      </ion-label>
+
+      <div slot="end" class="c100 p66 small orange">
+        <span>66%</span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+        <img src="assets/gumball.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        The Amazing World of Gumball 
+      </ion-label>
+
+      <div slot="end" class="c100 p82 small green">
+        <span>82%</span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+
+    </ion-item>
+  </ion-list>
+  
 </ion-content>
